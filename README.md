@@ -4,8 +4,7 @@ Traditional logistics planning relies on "Average Lead Times," which fails in hi
 ## 🛠️ Technical Components
 * **MySQL Layer (`db_infrastructure.sql`):** Profiles shipment volatility ($\sigma$) across 180k rows to identify high-risk "Black Swan" cities.
 * **Optimization Engine (`LeadTime_Robustness_Analysis.ipynb`):** A Python-based simulation that calculates the "Economic Regret" of different buffer decisions.
-* **BI Layer (`Interactive_Dashboard.pbix`):** A stakeholder dashboard to visualize cost-response surfaces across 20+ global nodes.
-**DataSet:**
+### *DataSet:*
 * **Source:** [Kaggle - DataCo Smart Supply Chain](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-dataset)
 * **Size:** 180,519 rows.
 
