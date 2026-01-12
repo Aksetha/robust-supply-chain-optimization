@@ -31,11 +31,12 @@ By applying a **Minimax Regret Framework** with **Asymmetric Cost Logic**, this 
 * **Bootstrap Validation:** Used a 1,000-iteration bootstrap loop to generate 95% Confidence Intervals for cost savings, ensuring the model's robustness against sampling bias.
 
 ## 📂 Repository Structure
-* `main_analysis.ipynb`: Primary research notebook containing the full optimization pipeline.
-* `database_setup.sql`: SQL schema and view definitions for Lead-Time Risk Profiling.
-* `Executive_Summary.csv`: High-level metrics for the 20 optimized trade lanes.
-* `Optimization_Report.txt`: Formatted executive summary of strategic findings.
-* `Optimization_Results_Summary.png`: Visual comparison of strategy performance and cost savings.
+* **`database_setup.sql`**: Contains the SQL schema, data ingestion logic, and specialized Views for high-volatility risk profiling.
+* **`LeadTime_Robustness_Analysis.ipynb`**: The core research notebook containing the Python implementation, mathematical modeling, and statistical validation.
+* **`Robust_Supply_Chain_Report.csv`**: Detailed city-level optimization results, comparing Naive, Service-Level, and Robust buffers.
+* **`Executive_Summary.csv`**: Aggregated KPIs across all analyzed trade lanes for high-level performance tracking.
+* **`Optimization_Report.txt`**: A human-readable executive summary including strategic recommendations and top-performing nodes.
+* **`Optimization_Results_Summary.png`**: High-resolution visualization comparing cost reduction percentages and absolute dollar savings across global cities.
 
 ## 📊 Visualizing the "Risk Zone"
 The engine identifies the **Tail-Risk Zone** (delays exceeding the 90th percentile) and provides a buffer that minimizes the total expected "Economic Regret."
