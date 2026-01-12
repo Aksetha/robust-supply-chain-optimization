@@ -1,0 +1,2 @@
+Analysis_Date,Total_Cities_Analyzed,Total_Shipments_Analyzed,Avg_Cost_Reduction_vs_Naive_%,Avg_Cost_Reduction_vs_ServiceLevel_%,Total_Estimated_Savings_USD,Median_Savings_per_City_USD,Avg_Delay_Volatility_Days,High_Risk_Cities_Count,Best_Performing_City,Best_City_Improvement_%,Best_City_Savings_USD
+2026-01-12 15:48,20,19628,54.8,-2.6,747.22,37.42,1.54,5,Mexico City,60.4,44.54
