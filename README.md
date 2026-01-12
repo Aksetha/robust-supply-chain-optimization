@@ -35,7 +35,7 @@ By applying a **Minimax Regret Framework** with **Asymmetric Cost Logic**, this 
 * **`LeadTime_Robustness_Analysis.ipynb`**: The core research notebook containing the Python implementation, mathematical modeling, and statistical validation.
 * **`Robust_Supply_Chain_Report.csv`**: Detailed city-level optimization results, comparing Naive, Service-Level, and Robust buffers.
 * **`Executive_Summary.csv`**: Aggregated KPIs across all analyzed trade lanes for high-level performance tracking.
-* **`Optimization_Report.txt`**: A human-readable executive summary including strategic recommendations and top-performing nodes.
+* **`Optimization_Report.txt`**: A executive summary including strategic recommendations and top-performing nodes.
 * **`Optimization_Results_Summary.png`**: High-resolution visualization comparing cost reduction percentages and absolute dollar savings across global cities.
 
 ## 📊 Visualizing the "Risk Zone"
