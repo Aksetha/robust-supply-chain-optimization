@@ -1,0 +1,54 @@
+===========================================================================
+     ROBUST SUPPLY CHAIN OPTIMIZATION - EXECUTIVE SUMMARY
+===========================================================================
+
+Report Generated: 2026-01-12 15:48
+Analysis Scope: 20 high-volatility global trade lanes
+Data Coverage: 19,628 historical shipments
+
+PERFORMANCE OVERVIEW:
+---------------------------------------------------------------------------
+Average Cost Reduction vs Naive Strategy:         54.8%
+Average Cost Reduction vs Industry Standard:      -2.6%
+Total Potential Savings (per cycle):            $  747.22
+Median Savings per City:                        $   37.42
+Average Lead-Time Volatility:                     1.54 days
+
+RISK PROFILE:
+---------------------------------------------------------------------------
+Cities with High Volatility (>75th percentile): 5
+These locations require priority attention for buffer optimization.
+
+TOP PERFORMING LOCATIONS (Highest Cost Savings):
+---------------------------------------------------------------------------
+Rank  City                     Savings (USD)     Improvement (%)
+---------------------------------------------------------------------------
+1     Mexico City              $44.54            60.4           
+2     Estocolmo                $42.76            60.3           
+3     León                     $42.40            59.8           
+4     Ho Chi Minh City         $41.33            58.4           
+5     Buenos Aires             $39.59            58.4           
+6     London                   $39.54            58.4           
+7     San Miguelito            $39.07            56.9           
+8     Columbus                 $38.46            57.0           
+9     Santo Domingo            $38.28            56.6           
+10    Estambul                 $37.49            56.0           
+
+METHODOLOGY:
+---------------------------------------------------------------------------
+Framework:     Newsvendor model with minimax regret objective
+Cost Structure: Asymmetric penalty (stockout cost 10x holding cost)
+Strategy:      95th percentile buffer vs mean-based planning
+Validation:    Bootstrap resampling (n=1000 iterations)
+Benchmarks:    Naive (mean), Service-Level (95% normal), Robust (Q95)
+
+STRATEGIC RECOMMENDATIONS:
+---------------------------------------------------------------------------
+1. Prioritize buffer optimization in 5 high-volatility cities
+2. Implement robust planning for Mexico City (potential $44.54 savings/shipment)
+3. Expected ROI: 54.8% average cost reduction
+4. Scale implementation across all 20 analyzed trade lanes
+
+===========================================================================
+For detailed city-level analysis, refer to 'Robust_Supply_Chain_Report.csv'
+===========================================================================
