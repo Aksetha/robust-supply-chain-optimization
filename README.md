@@ -31,6 +31,7 @@ By applying a **Minimax Regret Framework** with **Asymmetric Cost Logic**, this 
 * **Bootstrap Validation:** Used a 1,000-iteration bootstrap loop to generate 95% Confidence Intervals for cost savings, ensuring the model's robustness against sampling bias.
 
 ## 📂 Repository Structure
+* **`Project_Report.pdf`**: A formal research paper detailing the theoretical background, methodology, and comprehensive analysis of results.
 * **`database_setup.sql`**: Contains the SQL schema, data ingestion logic, and specialized Views for high-volatility risk profiling.
 * **`LeadTime_Robustness_Analysis.ipynb`**: The core research notebook containing the Python implementation, mathematical modeling, and statistical validation.
 * **`Robust_Supply_Chain_Report.csv`**: Detailed city-level optimization results, comparing Naive, Service-Level, and Robust buffers.
